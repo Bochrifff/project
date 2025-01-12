@@ -1,0 +1,198 @@
+.nav {
+    position: relative;
+    height: 72px;
+    background: rgba(7, 7, 13, 0.8);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: auto; /* Fixed width */
+  padding: 35px 100px; /* Padding: top/bottom 35px, left/right 100px */
+  gap: 0; /* No gap between child elements */
+  border-width: 0 0 1px 0; /* Border: bottom border only */
+  border-style: solid; /* Add this to make the border visible */
+  border-color: #000; /* Add a color for the border */
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Distribute child elements */
+  
+      }
+      .logo {
+        
+            width: 80px; /* Fixed width */
+            height: 80px; /* Fixed height */
+            object-fit: scale-down; /* Ensures content is cropped while maintaining scale */
+            opacity: 1; /* Fully transparent */
+            top:-10px;
+            overflow: hidden; 
+            position: relative; /* Enables positioning of the image inside */
+  
+      }
+      
+      .Name {
+    position: absolute;
+    width: 140px;
+    height: 62px;
+    left: 154px;
+    top: 53px;
+    
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 19px;
+    text-align: center;
+    color: #3198A3;
+      }
+      
+      .content1 {
+    position: absolute;
+    width: 87px;
+    height: 30px;
+    left: 582px;
+    top: 53px;
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: black;
+      }
+      .content2{
+     position: absolute;
+    width: 106px;
+    height: 42px;
+    left: 689px;
+    top: 53px;
+    
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: black; 
+    }
+    .content3{
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    left: 815px;
+    top: 53px;
+    
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: black;
+    }
+    .content4{
+        position: absolute;
+        width: 75px;
+        height: 22px;
+        left: 900px;
+        top: 53px;
+        
+        font-family: 'Roboto Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        
+        color: black;
+        }
+    .content5{
+    position: absolute;
+    width: 100px;
+    height: 22px;
+    left: 1150px;
+    top: 53px;
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: black;
+    }
+      .BrowserExperts {
+        position: relative;
+        width: 75px;
+        height: 2px;
+        font-family: 'Roboto Regular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 10px;
+      }
+      
+      .rectangle {
+        position: absolute;
+        width: 250px;
+        height: 36.5px;
+        background: #024B5E;
+        mix-blend-mode: darken;
+        border-radius: 10px;
+      }
+      
+      .Frame {
+    position: absolute;
+    width: 95px;
+    height: 36.5px;
+    left: 1050px;
+    top: 43px;
+    mix-blend-mode:normal;
+      }
+      .Courses {
+        position: relative;
+        width: 75px;
+        height: 2px;
+        font-family: 'Roboto Regular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: center;
+        color:  #024B5E;
+        padding-top: 10px;
+      }
+      
+      .rectangle2 {
+        position: absolute;
+        width: 100px;
+        height: 36.5px;
+        background: #FFFFFF;
+        mix-blend-mode: darken;
+        border-radius: 10px;
+        border: 1px solid #024B5E
+      }
+      
+      .Frame2 {
+    position: absolute;
+    width: 95px;
+    height: 36.5px;
+    left: 1150px;
+    top: 43px;
+    mix-blend-mode:normal;
+      }
+      .navbar a:hover {
+        text-decoration: none; /* Ensures no underline on hover */
+      }
+      .navbar a {
+        text-decoration: none; /* Removes underline */
+      }
+      .vector {
+        position: absolute; 
+        left: 500px;
+    
+      }
+      
